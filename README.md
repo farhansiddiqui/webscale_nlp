@@ -1,5 +1,5 @@
 # Web Scale Natural Language Processing
-Web Scale Natural Language Processing is a big data engineering and machine-learning project using Apache Spark to create extract insights from multi-billion document, multi-terabyte corpus like common crawl.
+Web Scale Natural Language Processing is a big data engineering and machine-learning project using Apache Spark to extract insights from multi-billion document, multi-terabyte corpus like common crawl.
 
 ##Background
 Digital content is growing exponentially. In 2013 4.4 ZB (ZB = 1 Billion Terabyte) of digital content was produced*. By 2020, the amount of digital content produced will grow to 44 ZB. That's a ten-fold increase in seven years. Scalable cloud based infrastructure and machine learning are an extremely good fit for processing such vast quantities of data.
