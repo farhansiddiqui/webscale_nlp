@@ -10,7 +10,6 @@ Digital content is growing exponentially. In 2013 4.4 ZB (ZB = 1 Billion Terabyt
 
    
    
-   
 ##Solution Landscape
 Solution Landscape for this project consited of AWS S3 hosted Common Crawl public dataset as the source of data, 100 node Apache Spark cluster as the processing engine and PostgreSQL as the repository of processed results. Final data visualization is done using Matplotlib, NetworkX and Gephi.
 
