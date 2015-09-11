@@ -15,7 +15,7 @@ Solution Landscape for this project consited of AWS S3 hosted Common Crawl publi
 
 ![Data Pipeline](images/soln_landscape.png)
 
-##Spark AWS ML Pipeline
+##Spark AWS Machine Learning Pipeline
 
 Each source data file was approximately 120 MB zipped and 300 MB unzipped. Each file contained on the order of 90,000 documents. These files were unzipped on the fly and document extracted using a Spark RDD mapping. After document extraction, document tokenization was performed and converted into a sparse vector using predefined but configurable vocabulary. These sparse vectors were then converted into inverse-document-frequency (idf) vector and finally into a term frequency–inverse document frequency (tf-idf) using Spark MLlib IDF class. Finally the tf-idf matrix was used to train a k-means model using Spark MLlib KMeans, KMeansModel classes.
 
